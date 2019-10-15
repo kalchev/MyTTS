@@ -5,7 +5,6 @@
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
     "ProfilerResultsDirectory": null,
-    "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
@@ -26,11 +25,11 @@
                 "UseDecodedUrl": true,
                 "NavigateURL": "http://www.google.com/",
                 "BaseUrl": "",
+                "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "UsejQuery": false,
-                "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
@@ -71,13 +70,13 @@
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
               "__value": {
                 "IsVisible": true,
-                "UseBackupSearch": true,
                 "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": true,
                 "RunsAgainstVersion": "",
@@ -110,7 +109,6 @@
                         }
                       },
                       "Frame": null,
-                      "FindInfo": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
@@ -145,6 +143,7 @@
                             }
                           ],
                           "BackupSearchClause": "/html[1]/body[1]/div[1]/div[6]/span[1]/center[1]/div[1]/div[1]/div[1]",
+                          "ImageSearchClauses": [],
                           "DataBindingExpressions": {}
                         }
                       },
@@ -190,6 +189,7 @@
     "TestClass": "",
     "IsManual": false,
     "ResourceFilePath": "WebTest.resx",
+    "ElementImageStoreFilePath": "WebTest.imgstore",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
