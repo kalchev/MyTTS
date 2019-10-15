@@ -188,20 +188,8 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "24bf1366-efad-4524-86a9-b589903f109c",
-    "SourceControlRepository": {
-      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
-      "__value": {
-        "RemotePath": "C:\\Users\\nipetrov\\Documents\\Test Studio Projects\\GitTest",
-        "ServerInfo": {
-          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
-          "__value": {
-            "ServerName": "C:\\Users\\nipetrov\\Documents\\Test Studio Projects\\GitTest"
-          }
-        },
-        "ServerType": 2
-      }
-    },
-    "IsOnline": true,
+    "SourceControlRepository": null,
+    "IsOnline": false,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
